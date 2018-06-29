@@ -26,7 +26,7 @@ function get_libnettle_version()
 end
 
 function __init__()
-    global const nettle_major_version = get_libnettle_version()
+    global nettle_major_version = get_libnettle_version()
 end
 
 if VERSION >= v"0.4.0-dev+6521"
